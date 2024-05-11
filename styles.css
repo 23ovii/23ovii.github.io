@@ -110,6 +110,15 @@ body::-webkit-scrollbar {
 .skill-list {
     list-style-type: none;
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #232323;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
 #page1 {
     background: linear-gradient(to top, #3498db, #2ecc71);
 }
