@@ -7,32 +7,55 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="photos/favicon.png?">
+    <link rel="icon" href="photos/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <div id="page1" class="container">    
         <div class="welc">
             <h1 class="gradient"><a href="#page2" title="click me!"> welcome to <br> 23ovii.github.io</h1></a>
+        
         </div>
     </div>
-    <!--<hr class="hr">-->
+    
     <div id="page2" class="container">
-        <div class="welc">
-            <h1 class="tpage2"><a href="#page1"> work in progress.</a></h1>
+       <div class="portofolio">
+
+        <h2 class="name"><a href="https://github.com/23ovii" title="@23ovii on github" target="_blank">@23ovii</a></h2>
+        <p class="readme">hello world👋🏻<br>
+            Welcome! My name is ovii, I am from Romania and I'm 16 years old.<br>
+             At the moment I'm in high-school and in my free time I am learning to code, editing or gaming.
+        </p>
+        <p class="skills">skills</p>
+        <div class="skills-container">
+        <ul class="skill-list">
+           <li><img src="https://skillicons.dev/icons?i=html" class="img"> HTML - still learning, learning it by myself</li>
+           <li><img src="https://skillicons.dev/icons?i=css" class="img"> CSS - still learning, learning it by myself</li>
+           <li><img src="https://skillicons.dev/icons?i=cpp" class="img"> C++ - still learning, learning it in high-school</li>
+           <li><img src="https://skillicons.dev/icons?i=js" class="img"> JS -  planned to learn next</li>
+        </ul>
+        <ul class="tools">
+            <li>Visual Studio Code <img src="https://skillicons.dev/icons?i=vscode" class="img"></li>
+            <li>Photoshop <img src="https://skillicons.dev/icons?i=ps" class="img" id="ps"></li>
+            <li>Github <img src="https://skillicons.dev/icons?i=github" class="img" id="github"></li>
+        </ul>
         </div>
+       </div>
     </div>
-    </div>
+    
 
     <script>
-        window.onload = function() {
-            if (window.location.hash === '#page2', '#page3') {
-                window.location.hash = '#page1';
-            }
-        };
-    </script>
+       // not needed rn, feels useless;
+       // window.onload = function() {
+           // if (window.location.hash === '#page2', '#page3') {
+             //   window.location.hash = '#page1';
+           // }
+       // }; 
+    </script> 
 </body>
 </html>
